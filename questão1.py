@@ -3,3 +3,8 @@
 #Se o valor digitado for maior do que ZERO o programa deve escrever
 #na tela “O número é positivo!
 numero = int(input("Digite um número:"))
+
+if (numero > 0):
+    print("O número é positivo")
+else:
+    print("O número é negativo")
